@@ -14,7 +14,7 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="TestList.vi" Type="VI" URL="../src/Tests/TestList.vi"/>
 		</Item>
-		<Item Name="Redis.lvclass" Type="LVClass" URL="../src/Redis_class/Redis.lvclass"/>
+		<Item Name="Redis.lvclass" Type="LVClass" URL="../Redis_class/Redis.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
