@@ -12,13 +12,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="TestList.vi" Type="VI" URL="../src/Tests/TestList.vi"/>
+			<Item Name="TestList.vi" Type="VI" URL="../Tests/TestList.vi"/>
 		</Item>
 		<Item Name="Redis.lvclass" Type="LVClass" URL="../Redis_class/Redis.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Escape String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Escape String.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
